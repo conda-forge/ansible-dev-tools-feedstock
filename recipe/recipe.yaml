@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.4.6"
+  version: "26.10.0"
   # overrides the global default of 3.10: upstream requires-python is >=3.11
   python_min: "3.11"
 
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansible-dev-tools/ansible_dev_tools-${{ version }}.tar.gz
-  sha256: 353930fe0a82f745ec39ff3ba5d154a8042b15755143412327f421604580059d
+  sha256: 4820647e90945a8330943236c1217503b00a6d7d45d46448c697f26f8e183075
 
 build:
   noarch: python
